@@ -1,0 +1,4 @@
+vim 0-preprocessor
+#!/bin/bash
+gcc -E -0 c $CFILE
+
