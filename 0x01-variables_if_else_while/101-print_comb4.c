@@ -19,7 +19,7 @@ if ((i < j) & (j < k) & (k <= '9'))
 putchar(i);
 putchar(j);
 putchar(k);
-if ((i + j + k) < 168
+if ((i + j + k) < 168)
 {
 putchar(',');
 putchar(' ');
