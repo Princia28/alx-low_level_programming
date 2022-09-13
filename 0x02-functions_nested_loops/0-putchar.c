@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * main - prints _putchar
+ * main - function to print
  *
- * Return: 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
-char text[10] = "Holberton";
-int i = 0;
-for (i = 0; i < 9; i++)
+char holberton[9] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
+unsigned int c;
+for (c = 0; c < sizeof(holberton); c++)
 {
-_putchar(text[i]);
+_putchar(holberton[c]);
 }
 _putchar('\n');
 return (0);
