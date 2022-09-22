@@ -1,19 +1,9 @@
 #include "main.h"
-
 /**
-<<<<<<< HEAD
- *
- * print_number - prints an integer
- * @n: integer to be printed
- *
- */
-
-=======
 * print_number - prints an integer
 * @n: integer to be printed
 *
 */
->>>>>>> 05b05757f73b8b3b8d335ab89b53d653616296ef
 void print_number(int n)
 {
 	unsigned int num = n;
