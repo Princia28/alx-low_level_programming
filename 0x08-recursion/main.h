@@ -1,6 +1,6 @@
-#ifndef HOLBERTON_H
+#ifndef MAIN_H
 
-#define HOLBERTON_H
+#define MAIN_H
 
 
 
@@ -20,4 +20,4 @@ int _sqrt_recursion(int n);
 
 
 
-#endif /* HOLBERTON_H */
+#endif /* MAIN_H */
